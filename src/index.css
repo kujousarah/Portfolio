@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./fonts/plasmati.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+  transition: all 0.3s ease;
+}
+
+.transform {
+  transform: translateX(64px);
+}
+
+.autoflex {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.customFont {
+  font-family: "CustomFont", sans-serif;
+}
+
+.paragraphFont {
+  font-family: JetBrains Mono;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 21px;
+  width: 21px;
+  border-style: solid;
+  border-color: white;
+  transform: rotate(45deg);
+  border-width: 0px 3px 3px 0;
+  transition: border-width 150ms ease-in-out;
+}
+
+.autogrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.customgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 550px));
+}
+
+.autogridTwo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.projectgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.custom-shadow {
+  background: #7e66f8;
+  box-shadow: 0 4px 10px rgba(126, 102, 248, 0.15);
+}
+
+.custom-gradient {
+  background: "#1E1451";
+  background: linear-gradient(-180.13deg, #1e1451 1.9%, #5c0644 97.5%);
+  background: -webkit-linear-gradient(-180.13deg, #1e1451 1.9%, #5c0644 97.5%);
+}
+
+.black-gradient {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.bg-gradient {
+  background: #7e66f8;
+  background: linear-gradient(56deg, #7e66f8, #03000c);
+  background: -webkit-linear-gradient(56deg, #7e66f8, #03000c);
+}
+
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-80deg, #7e66f8 0%, #00cea8 100%);
+  background: -webkit-linear-gradient(-80deg, #804dee 0%, #00cea8 100%);
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(-180.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-180.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.orange-gradient {
+  background: "#f12711";
+  background: linear-gradient(-180.13deg, #f12711 1.9%, #f5af19 97.5%);
+  background: -webkit-linear-gradient(-180.13deg, #f12711 1.9%, #f5af19 97.5%);
+}
+
+.green-gradient {
+  background: "#11998e";
+  background: linear-gradient(-180.13deg, #11998e 1.9%, #38ef7d 97.5%);
+  background: -webkit-linear-gradient(-180.13deg, #11998e 1.9%, #38ef7d 97.5%);
+}
+
+.blue-gradient {
+  background: "#2f80ed";
+  background: linear-gradient(-180.13deg, #2f80ed 1.9%, #56ccf2 97.5%);
+  background: -webkit-linear-gradient(-180.13deg, #2f80ed 1.9%, #56ccf2 97.5%);
+}
+
+.orange-text-gradient {
+  background: #f12711;
+  background: -webkit-linear-gradient(to top, #f12711, #f5af19);
+  background: linear-gradient(to top, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  background: #11998e;
+  background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
+  background: linear-gradient(to top, #11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to top, #2f80ed, #56ccf2);
+  background: linear-gradient(to top, #2f80ed, #56ccf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: #df6bbe;
+  background: -webkit-linear-gradient(to right, #df6bbe 2.4%, #7e66f8 96.4%);
+  background: linear-gradient(to right, #df6bbe 2.4%, #7e66f8 96.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
