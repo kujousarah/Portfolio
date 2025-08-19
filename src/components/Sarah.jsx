@@ -153,7 +153,7 @@ function Sarah() {
             <img
               src={Instagram}
               alt=""
-              className="max-w-[94px] w-full  hover:invert hover:scale-75"
+              className="max-w-[94px] w-full sm:w-[40px] hover:invert hover:scale-75"
             />
           </Link>
           <Link
