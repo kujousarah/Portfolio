@@ -25,8 +25,7 @@ function About() {
         <p
           className={`${styles.sectionSubText} max-w-[850px] w-full text-center`}
         >
-          I'm an aspiring developers. I may not have the skill set yet, but i am
-          quick and eager to learn different types of technologies.
+         I’m an aspiring developer with a strong willingness to learn. While I may not yet possess all the necessary skills, I’m a fast learner who is eager to explore and adapt to new technologies.
         </p>
       </div>
 
