@@ -146,7 +146,7 @@ function Sarah() {
 
         <div className="flex justify-center gap-9 md:mt-24 mt-16">
           <Link
-            to="https://www.instagram.com/cupcake.ggwp/"
+            to="https://www.instagram.com/kujousarahhh?igsh=djlwZ3U3Ym9lcjZ1.ggwp/"
             target="_Blank"
             className=""
           >
@@ -157,7 +157,7 @@ function Sarah() {
             />
           </Link>
           <Link
-            to="https://www.facebook.com/yenssshin"
+            to="https://www.facebook.com/maki.zenin11"
             target="_Blank"
             className=""
           >
@@ -178,8 +178,7 @@ function Sarah() {
               className="max-w-[94px] w-full  hover:invert hover:scale-75"
             />
           </Link>
-          <Link
-            to="https://www.linkedin.com/in/gracienesmeralda/"
+          {/*<Link
             target="_Blank"
             className=""
           >
@@ -188,7 +187,7 @@ function Sarah() {
               alt=""
               className="max-w-[94px] w-full  hover:invert hover:scale-75"
             />
-          </Link>
+          </Link>*/} 
         </div>
 
         <h1
